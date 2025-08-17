@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Navbar.css';
-import Logo from '../../assets/Logo.png';
+import Logo from '../../assets/logo.png';
 import underline from '../../assets/nav_underline.svg';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from '../../assets/menu_open.svg';
