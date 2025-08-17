@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import './Hero.css'
 import Profile from '../../assets/profile.jpg'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const Hero =()=>{
+const Hero=()=>{
     return(
-        <div id="home" className="hero">
+             <div id="home" className="hero">
             <img src={Profile} alt="" />
             <h1><span>I'am Ayman Tabissi</span>, full stack developper based in morrocco.  </h1>
             <p>Full Stack Developer experienced in building complete web applications, skilled in React.js, Laravel, Node.js, and MongoDB, with the ability to create intuitive interfaces and high-performance systems</p>
