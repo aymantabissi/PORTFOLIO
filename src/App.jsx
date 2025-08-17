@@ -1,13 +1,13 @@
 import React from "react";
 
 // Components
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero"; // H in Hero must match folder
-import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import MyWork from "./components/MyWork/MyWork";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Hero from "./components/Hero/Hero.jsx"; // H in Hero must match folder
+import About from "./components/About/About.jsx";
+import Services from "./components/Services/Services.jsx";
+import MyWork from "./components/MyWork/MyWork.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
