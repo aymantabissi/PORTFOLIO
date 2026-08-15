@@ -7,8 +7,8 @@ const Footer=()=>{
         <div className="footer">
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <img src={footer_logo} alt="" />
-                    <p>I'am Ayman Tabissi, full stack developper based in morrocco.</p>
+                    <img src={footer_logo} alt="Ayman Tabissi logo" />
+                    <p>I'm Ayman Tabissi, a full stack developer based in Morocco.</p>
 
                 </div>
                 <div className="footer-top-right">
@@ -27,12 +27,12 @@ const Footer=()=>{
             <hr />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">
-                    © 2021 Ayman Tabissi. All rights reserved.
+                    © {new Date().getFullYear()} Ayman Tabissi. All rights reserved.
                 </p>
                 <div className="footer-bottom-right">
-                    <p>Term of Services</p>
-                    <p>Privacy Policy</p>
-                    <p>Connect with me</p>
+                    <a href="https://github.com/aymantabissi" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/aymane-tabissi-339696238/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:aymanraisse7@gmail.com">Email me</a>
                 </div>
             </div>
 

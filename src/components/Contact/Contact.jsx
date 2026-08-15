@@ -10,7 +10,7 @@ const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "b45b49e0-ef88-4dc5-9c99-9c4e125d8060");
+    formData.append("access_key", import.meta.env.VITE_WEB3FORMS_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -39,7 +39,7 @@ const onSubmit = async (event) => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
-                    <p>I'm currently avaliable to take on new projects,
+                    <p>I'm currently available to take on new projects,
                          so feel free to send me a message about anything
                      that you want me to work on. You can contact anytime.</p>
                      <div className="contact-details">
@@ -50,20 +50,20 @@ const onSubmit = async (event) => {
                             <img src={call_icon} alt="" /><p>+212684699345</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon}alt="" /><p>safi,Morrocco</p>
+                            <img src={location_icon} alt="" /><p>Safi, Morocco</p>
                         </div>
 
                      </div>
                 </div>
                 <form onSubmit={onSubmit} className="contact-rightsection">
-                    <label htmlFor="">Your Name</label>
-                    <input type="text " placeholder="Enter Your Name"  name="name"/>
-                    <label htmlFor="">Your Email</label>
-                    <input type="email"  placeholder="Enter Your Email" name="email"/>
-                    <label htmlFor=""> Write Your Message Here</label>
-                    <textarea name="message" rows='8' placeholder="Enter Your Message "></textarea>
+                    <label htmlFor="name">Your Name</label>
+                    <input type="text" placeholder="Enter Your Name" name="name" required/>
+                    <label htmlFor="email">Your Email</label>
+                    <input type="email" placeholder="Enter Your Email" name="email" required/>
+                    <label htmlFor="message">Write Your Message Here</label>
+                    <textarea name="message" rows='8' placeholder="Enter Your Message" required></textarea>
                     <button type="submit" className="contact-submit">
-                           Submit Noow
+                           Submit Now
                     </button>
                 </form>
             </div>
