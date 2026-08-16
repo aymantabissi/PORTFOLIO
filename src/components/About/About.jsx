@@ -17,28 +17,53 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Full-stack developer with experience in React.js, Laravel, Node.js, 
-              MongoDB, and MySQL. I create responsive, scalable web applications 
+              Full-stack developer with experience in React.js, Laravel, Node.js,
+              MongoDB, and MySQL. I create responsive, scalable web applications
               focused on clean code and efficient solutions.
             </p>
             <p>
-              Passionate about technology and continuous learning. I enjoy turning 
-              ideas into functional products and exploring new frameworks to build 
-              innovative, user-friendly applications.
+              Currently studying Computer Engineering & Artificial Intelligence, and
+              building skills in Machine Learning and data analysis to bring intelligent
+              features into the applications I build.
             </p>
           </div>
           <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: '50%' }} />
+            <div className="about-skill-group">
+              <h4>Frontend</h4>
+              <div className="about-skill-tags">
+                <span>React.js</span>
+                <span>JavaScript</span>
+                <span>HTML5 & CSS3</span>
+                <span>Tailwind</span>
+                <span>Bootstrap</span>
+              </div>
             </div>
-            <div className="about-skill">
-              <p>JavaScript & React</p> <hr style={{ width: '60%' }} />
+            <div className="about-skill-group">
+              <h4>Backend</h4>
+              <div className="about-skill-tags">
+                <span>Node.js</span>
+                <span>Laravel</span>
+                <span>PHP</span>
+                <span>Java & Spring Boot</span>
+              </div>
             </div>
-            <div className="about-skill">
-              <p>Laravel & MongoDB</p> <hr style={{ width: '40%' }} />
+            <div className="about-skill-group">
+              <h4>Data & AI</h4>
+              <div className="about-skill-tags">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Data Analysis</span>
+                <span>Data Cleaning</span>
+              </div>
             </div>
-            <div className="about-skill">
-              <p>MySQL & Node.js</p> <hr style={{ width: '45%' }} />
+            <div className="about-skill-group">
+              <h4>Databases & Tools</h4>
+              <div className="about-skill-tags">
+                <span>MongoDB</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>Git & Docker</span>
+              </div>
             </div>
           </div>
         </div>
