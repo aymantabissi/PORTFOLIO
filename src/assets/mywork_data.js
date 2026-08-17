@@ -3,6 +3,7 @@ import project2_img from '../assets/project_2.svg'
 import project3_img from '../assets/project_3.svg'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
+import elegence_img from '../assets/elegence.jpeg'
 
 // TODO: swap w_img for real screenshots, and fill w_live/w_github once each project is hosted
 const mywork_data = [
@@ -49,6 +50,15 @@ const mywork_data = [
         w_tags:["PHP", "MySQL", "Bootstrap"],
         w_img:project5_img,
         w_live:"",
+        w_github:""
+    },
+    {
+        w_no:6,
+        w_name:"Brillante Elegance",
+        w_desc:"A full-featured e-commerce web app with real-time features powered by Socket.io.",
+        w_tags:["React.js", "Node.js", "MongoDB", "Socket.io"],
+        w_img:elegence_img,
+        w_live:"https://brillante-elegance-frontend-ik4iadaii-aymantabissis-projects.vercel.app/",
         w_github:""
     },
 ]
