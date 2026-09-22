@@ -31,11 +31,17 @@ const MyWork = () => {
                                                 Live demo <img src={arrow} alt="" />
                                             </a>
                                         )}
-                                        {work.w_github && (
-                                            <a href={work.w_github} target="_blank" rel="noopener noreferrer">
-                                                Code <img src={arrow} alt="" />
-                                            </a>
-                                        )}
+                                        {work.w_repos
+                                            ? work.w_repos.map((repo, i) => (
+                                                <a key={i} href={repo.url} target="_blank" rel="noopener noreferrer">
+                                                    {repo.label} <img src={arrow} alt="" />
+                                                </a>
+                                            ))
+                                            : work.w_github && (
+                                                <a href={work.w_github} target="_blank" rel="noopener noreferrer">
+                                                    Code <img src={arrow} alt="" />
+                                                </a>
+                                            )}
                                     </div>
                                 </div>
                             </div>

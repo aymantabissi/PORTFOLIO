@@ -4,6 +4,7 @@ import project3_img from '../assets/project_3.svg'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import elegence_img from '../assets/elegence.jpeg'
+import chat_img from '../assets/chat.jpeg'
 
 // TODO: swap w_img for real screenshots, and fill w_live/w_github once each project is hosted
 const mywork_data = [
@@ -60,6 +61,19 @@ const mywork_data = [
         w_img:elegence_img,
         w_live:"https://brillante-elegance-frontend-ik4iadaii-aymantabissis-projects.vercel.app/",
         w_github:""
+    },
+    {
+        w_no:7,
+        w_name:"Moroccan Family Law Assistant (RAG Chatbot)",
+        w_desc:"An AI legal assistant answering questions on Moroccan Family Law, the Penal Code, and Criminal Procedure in Darija, Arabic, French, or English, with hybrid BM25 + semantic retrieval and every answer cited to the source article.",
+        w_tags:["React", "Flask", "Groq LLM", "RAG", "Python"],
+        w_img:chat_img,
+        w_live:"https://frontend-chat-rag.vercel.app",
+        w_github:"https://github.com/aymantabissi/frontend_chat_rag",
+        w_repos:[
+            {label:"Frontend", url:"https://github.com/aymantabissi/frontend_chat_rag"},
+            {label:"Backend", url:"https://github.com/aymantabissi/backend_chat_rag"}
+        ]
     },
 ]
 
