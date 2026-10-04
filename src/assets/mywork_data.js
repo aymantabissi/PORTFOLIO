@@ -59,7 +59,7 @@ const mywork_data = [
         w_desc:"A full-featured e-commerce web app with real-time features powered by Socket.io.",
         w_tags:["React.js", "Node.js", "MongoDB", "Socket.io"],
         w_img:elegence_img,
-        w_live:"https://brillante-elegance-frontend-ik4iadaii-aymantabissis-projects.vercel.app/",
+        w_live:"https://brillante-elegance-frontend-git-main-aymantabissis-projects.vercel.app/",
         w_github:""
     },
     {
