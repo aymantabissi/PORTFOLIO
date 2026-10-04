@@ -141,3 +141,20 @@
    width: 18px;
    height: 18px;
 }
+
+@media (max-width: 768px) {
+   .mywork-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+   }
+
+   .mywork-card {
+      max-width: none;
+   }
+}
+
+@media (max-width: 480px) {
+   .mywork-container {
+      grid-template-columns: 1fr;
+   }
+}
