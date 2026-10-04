@@ -2,7 +2,7 @@ import project1_img from '../assets/project_1.svg'
 import project2_img from '../assets/project_2.svg'
 import project3_img from '../assets/project_3.svg'
 import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
+import nephroia_img from '../assets/nephroiA.png'
 import elegence_img from '../assets/elegence.jpeg'
 import chat_img from '../assets/chat.jpeg'
 
@@ -46,12 +46,16 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Ordishop – Computer Store",
-        w_desc:"An e-commerce store for computer hardware and accessories.",
-        w_tags:["PHP", "MySQL", "Bootstrap"],
-        w_img:project5_img,
-        w_live:"",
-        w_github:""
+        w_name:"NephroIA",
+        w_desc:"AI-powered web app predicting Chronic Kidney Disease risk with XGBoost, with admin, doctor and patient dashboards and a medical chatbot.",
+        w_tags:["React.js", "Python", "XGBoost", "AI"],
+        w_img:nephroia_img,
+        w_live:"https://frontend-cdkproject-phi.vercel.app",
+        w_github:"https://github.com/aymantabissi/frontend-cdkproject",
+        w_repos:[
+            {label:"Frontend", url:"https://github.com/aymantabissi/frontend-cdkproject"},
+            {label:"Backend", url:"https://github.com/aymantabissi/backend-cdkproject"}
+        ]
     },
     {
         w_no:6,
